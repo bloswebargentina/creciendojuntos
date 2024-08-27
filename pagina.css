@@ -58,6 +58,16 @@ body {
     0 0 0.1em rgb(175, 175, 175);
 
 }
+    
+#h2entrada{
+    padding: 0px;
+    text-align: center;
+    overflow-wrap: break-word;
+    text-shadow:
+    1px 1px 1px rgb(129, 129, 129),
+    0 0 1em rgb(179, 179, 179),
+    0 0 0.1em rgb(175, 175, 175);
+}
 
 #h2entrada{
     padding: 0px;
@@ -94,6 +104,7 @@ body {
     border-radius: 32px;
     box-shadow: 3px 3px 3px 3px rgb(166, 166, 166);
     overflow-wrap: break-word;
+    cursor: pointer;
 
 }
 
@@ -117,23 +128,45 @@ body {
 
 
 
-@media (max-width: 730px) {
-    #contenido1{
-        display: none;
+@media (max-width: 480px) {
 
+
+
+    #botondentro{
+
+        justify-items: right;
+        justify-content: right;
+        text-align: right;
+        margin-left: 95px;
+        cursor: pointer;
         
     }
 
-    #hijocontenido {
-        margin: 24px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-    }
+    #contenido1{
+    display: none;
+    overflow-wrap: break-word;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+        
+}    
+    #hijocontenido1,#hijocontenido2,#hijocontenido3,#hijocontenido4,
+    #hijocontenido5,#hijocontenido6,#hijocontenido7,#hijocontenido8,#hijocontenido9,
+    #hijocontenido10,#hijocontenido11,#hijocontenido12
+{
+       
+        background-color: #dbdbdb;
+        padding: 24px 24px 24px 24px;
+        margin: 12px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        border-radius: 32px;
+        box-shadow: 3px 3px 3px 3px rgb(166, 166, 166);
+        overflow-wrap: break-word;
 
-    #entrada {
-        font-size: 16px;
-        padding: 2px;
-        padding-left: 2px;
-        padding-right: 2px;
-    }
+}
+
+
+
+
 }
